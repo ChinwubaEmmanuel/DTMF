@@ -1,5 +1,5 @@
 %{
-Chinwuba Emmanuel    CSE 33313    
+Chinwuba Emmanuel    
 %}
 
 clear; close all; clc
