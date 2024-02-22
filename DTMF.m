@@ -5,7 +5,7 @@ Chinwuba Emmanuel
 clear; close all; clc
 clearvars
 
-[y, fs] = audioread("Dtmf-1.wav");
+[y, fs] = audioread("Dtmf-1.wav"); // Insert file name
 N = length(y);
 y_fft = fft(y)/N;
 y_fft = y_fft(1:(N/2)+1);
